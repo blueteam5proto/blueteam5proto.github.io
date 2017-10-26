@@ -21,6 +21,10 @@
   <!-- Wide card with share menu button -->
   <style>
 
+body {
+  background-color: rgb(245,245,245)
+;}
+
   </style>
 
   <body>
@@ -32,11 +36,11 @@ Navigation Bar
 -->
 
         <!-- Always shows a header, even in smaller screens. -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header mdl-color--indigo-50">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
       <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
+        <div class="mdl-layout__header-row" style="color: white; background-color: #4285f4;">
           <!-- Title -->
-          <span style="font-size:24px;" class="mdl-layout-title"><i class="fa fa-rocket"></i>&nbsp;&nbsp;pathfinder</span>
+          <span style="font-size:24px;" class="mdl-layout-title"><i class="fa fa-rocket"></i>&nbsp;&nbsp;Jack</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
@@ -48,25 +52,24 @@ Navigation Bar
           </nav>
         </div>
       </header>
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
+      <div class="mdl-layout__drawer mdl-color--white">
+        <span class="mdl-layout-title">&nbsp;</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="" style=" font-size:20px;"><i class="fa fa-inbox" style="margin-right:20%;"></i>Inbox</a>
+          <a class="mdl-navigation__link" href="" style=" font-size:20px;">Link</a>
+          <a class="mdl-navigation__link" href="" style=" font-size:20px;">Link</a>
+          <a class="mdl-navigation__link" href="" style=" font-size:20px;">Link</a>
         </nav>
       </div>
       <main class="mdl-layout__content">
         <div class="page-content">
 
           <div class="container"> <!-- Total Page Wrapper -->
-
             <h2 style="margin-top:5%;" class="text-center">Phase 1: Business Plan</h2>
             <div class="mdl-grid">
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
@@ -80,15 +83,15 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -101,15 +104,15 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -122,7 +125,7 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
@@ -134,9 +137,9 @@ Navigation Bar
             <h2 class="text-center">Phase 2: More Business Plan</h2>
             <div class="mdl-grid">
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%;width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -149,15 +152,15 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%;width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -170,15 +173,15 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%;width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -191,7 +194,7 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
@@ -203,9 +206,9 @@ Navigation Bar
             <h2 class="text-center">Phase 3: Most Business Plan</h2>
             <div class="mdl-grid">
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%;width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -218,15 +221,15 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%;width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -239,15 +242,15 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <div style="margin-top:5%;width:100%;" class="demo-card-wide mdl-card mdl-shadow--3dp">
-                  <div class="mdl-card__title" style="color: #fff; height: 150px; background: url('https://getmdl.io/assets/demos/welcome_card.jpg') left / cover;">
-                    <h2 class="mdl-card__title-text">Welcome</h2>
+                <div style="margin-top:5%; width:100%;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Module 1</h2>
                   </div>
                   <div class="mdl-card__supporting-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -260,7 +263,7 @@ Navigation Bar
                   </div>
                   <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                      <i style="color:#fff;" class="material-icons">share</i>
+                      <i style="color: black;" class="material-icons">share</i>
                     </button>
                   </div>
                 </div>
